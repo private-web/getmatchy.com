@@ -165,7 +165,18 @@ body {
 </head>
 
 <body>
-    <div class="live-counter">
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+    <div class="spinner"></div>
+    <div class="loader-text">Suche aktive Nutzer in deiner Nähe...</div>
+</div>
+
+<div class="container" id="main">
+
+    <div class="header">
+        <div class="logo">VELORA</div>
+      <div class="live-counter">
     <span id="counter">12</span> aktive Nutzer gerade
 </div>
 
@@ -218,24 +229,13 @@ setInterval(updateCounter, 3000);
 // initial
 document.getElementById("counter").innerText = current;
 </script>
-
-<!-- LOADER -->
-<div class="loader" id="loader">
-    <div class="spinner"></div>
-    <div class="loader-text">Suche aktive Nutzer in deiner Nähe...</div>
-</div>
-
-<div class="container" id="main">
-
-    <div class="header">
-        <div class="logo">VELORA</div>
         <div class="subtitle">Private Verbindungen in deiner Nähe</div>
     </div>
 
     <div class="card">
         <img src="https://i.pravatar.cc/100?img=32" class="avatar">
         <div class="info">
-            <div class="name">Sophie, 27</div>
+            <div class="name">Sophie, 25</div>
             <div class="status">Mag ehrliche Gespräche</div>
             <div class="online">● Online jetzt</div>
         </div>
@@ -245,7 +245,7 @@ document.getElementById("counter").innerText = current;
     <div class="card">
         <img src="https://i.pravatar.cc/100?img=45" class="avatar">
         <div class="info">
-            <div class="name">Lena, 31</div>
+            <div class="name">Lena, 27</div>
             <div class="status">Neu hier</div>
             <div class="online">● Aktiv heute</div>
         </div>
@@ -255,7 +255,7 @@ document.getElementById("counter").innerText = current;
     <div class="card">
         <img src="https://i.pravatar.cc/100?img=12" class="avatar">
         <div class="info">
-            <div class="name">Jhon, 25</div>
+            <div class="name">Jhon, 20</div>
             <div class="status">Sucht neue Kontakte</div>
             <div class="online">● Online jetzt</div>
         </div>
